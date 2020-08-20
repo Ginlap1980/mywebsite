@@ -1,14 +1,59 @@
+/* Website Styles */
+
+*{
+  font-size: 100%;
+}
+
 body {
   background-color: AliceBlue;
   color: DarkSlateBlue;
+  font-size: 14px;
+  font-family: 'Noto Serif TC', Georgia, serif;
 }
 
 h1 {
+  color: Red;
+    font-family: Helvetica, Arial;
+  font size: 64px;
+  text-align: left;
+  }
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-style: italic;
+}
+
+header h1 {
+  text-align: center;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
   color: red;
 }
-h1 {
-  font-family: Helvetica, Arial;
+
+a:hover {
+  text-decoration: underline;
 }
-body {
-  font-family: 'Noto Serif TC', Georgia, serif;
+
+a:visited {
+  color: grey;
 }

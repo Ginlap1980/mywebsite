@@ -10,14 +10,16 @@
 
 body {
   background-color: AliceBlue;
-  color: DarkSlateBlue;
+  color: White;
   font-size: 14px;
   font-family: 'Noto Serif TC', Georgia, serif;
   margin: 50px;
+  background-image: url(images/background.png);
+  background-repeat: repeat;
 }
 
 h1 {
-  color: Red;
+  color: White;
     font-family: Helvetica, Arial;
   font size: 64px;
   text-align: left;
@@ -25,7 +27,9 @@ h1 {
   }
 
 h2 {
-  font-size: 24px;
+  font-size: 80px;
+  text-align: center;
+  padding: 150px  0;
 }
 
 h3 {
@@ -90,6 +94,7 @@ section {
   padding: 30px;
   width: 50%;
   height: 50%;
+  color: black;
 }
 
 p{
@@ -103,4 +108,14 @@ img {
 .title {
   font-size: 48px;
   text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/lake.jpg);
 }
